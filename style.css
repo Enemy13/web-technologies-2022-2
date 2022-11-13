@@ -217,3 +217,16 @@ body{
 .contact_element_top_text{
   margin-left: 13px;
 }
+.footer_bottom{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+}
+.footer_p{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.078px;
+  color: #FFFFFF;
+  margin-left: 12px;
+}

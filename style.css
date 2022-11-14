@@ -10,11 +10,15 @@ body{
   background-repeat: no-repeat;
   background-position: 630px -659px;
   min-height: 900px;
+  flex-grow: 1;
 }
 .container{
   max-width: 1224px;
   width: 100%;
   margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 
 }
 .page_header{
@@ -230,3 +234,4 @@ body{
   color: #FFFFFF;
   margin-left: 12px;
 }
+

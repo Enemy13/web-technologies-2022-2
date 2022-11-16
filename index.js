@@ -40,19 +40,21 @@
 // counter2() // 2
 
 // Zadanie 3
-function spinWords(str) {
-  let result=[];
-  for (const strElement of str.split(' ')) {
-    if (strElement.length>=5){
-      result.push(strElement.split('').reverse().join(''))
-      continue
-    }
-    result.push(strElement)
-  }
-  return result.toString().replaceAll(","," ")
-}
-const result1 = spinWords( "Привет от Legacy" )
-console.log(result1) // тевирП от ycageL
 
-const result2 = spinWords( "This is a test" )
-console.log(result2) // This is a test
+// function spinWords(str) {
+//   let result=[];
+//   for (const strElement of str.split(' ')) {
+//     if (strElement.length>=5){
+//       result.push(strElement.split('').reverse().join(''))
+//       continue
+//     }
+//     result.push(strElement)
+//   }
+//   return result.toString().replaceAll(","," ")
+// }
+// const result1 = spinWords( "Привет от Legacy" )
+// console.log(result1) // тевирП от ycageL
+//
+// const result2 = spinWords( "This is a test" )
+// console.log(result2) // This is a test
+// Zadanie 4

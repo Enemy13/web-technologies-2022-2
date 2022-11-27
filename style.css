@@ -175,6 +175,10 @@ body {
   width: 132px;
 }
 
+.feed_back_form_button:hover{
+  background: #114fe3;
+}
+
 .feed_back_form_input {
   border-bottom: 0.7px solid #D0D5DD;
   display: flex;
@@ -268,7 +272,7 @@ body {
   margin-left: 13px;
 }
 
-.right_contact_container, .left_contact_container{
+.right_contact_container, .left_contact_container {
   display: flex;
   align-items: center;
 }
@@ -292,22 +296,27 @@ body {
   display: none;
 }
 
-.description_technology{
+.technology_page_container{
+  margin: 80px 82px;
+}
+
+.description_technology {
   width: 600px;
 }
 
-.technology_page{
+.technology_page {
   max-width: 1224px;
   width: 100%;
-  margin: 80px auto 82px;
+  margin:  auto ;
 
   display: flex;
 }
-.technology_title{
+
+.technology_title {
   margin-bottom: 34px;
 }
 
-.technology_title h1{
+.technology_title h1 {
   font-weight: 700;
   font-size: 36px;
   line-height: 144%;
@@ -324,11 +333,11 @@ body {
   color: #101828;
 }
 
-.technology_container{
+.technology_container {
   width: 496px;
 }
 
-.technology_container h3{
+.technology_container h3 {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -336,7 +345,8 @@ body {
   color: #101828;
   margin-bottom: 16px;
 }
-.technology_container h4{
+
+.technology_container h4 {
   font-weight: 400;
   font-size: 17px;
   line-height: 22px;
@@ -344,21 +354,24 @@ body {
   color: #344054;
   margin-bottom: 32px;
 }
-.technology_container h4:last-of-type{
+
+.technology_container h4:last-of-type {
   margin: 0;
 }
-.service_products{
- display: flex;
+
+.service_products {
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-left: 128px;
 }
 
-.service_product_container{
+.service_product_container {
   display: flex;
   align-items: center;
 }
-.service_product_container a{
+
+.service_product_container a {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -368,7 +381,8 @@ body {
   border-bottom: 1px solid transparent;
   margin: 12px 0;
 }
-.service_product_container a:hover{
+
+.service_product_container a:hover {
   border-bottom: 1px solid #2D66EE;
   font-weight: 600;
   font-size: 20px;
@@ -377,7 +391,7 @@ body {
   color: #101828;
 }
 
-.right_icon{
+.right_icon {
   margin-left: 21px;
   width: 6px;
   height: 12px;
@@ -385,10 +399,11 @@ body {
 
 @media (max-width: 1439px) {
 
-  .main_page_container{
+  .main_page_container {
     background-size: 75%;
     background-position: top -110px right -180px;
   }
+
   .banner {
     max-width: 768px;
     min-height: 762px;
@@ -412,81 +427,137 @@ body {
     display: none;
   }
 
-  .intro{
+  .intro {
     margin-top: 32px;
   }
 
-  .description_intro{
+  .description_intro {
     width: 393px;
     margin-left: 32px;
     margin-bottom: 32px;
   }
 
-  .intro_title{
+  .intro_title {
     font-weight: 700;
     font-size: 28px;
 
   }
 
-  .contacts_us{
+  .contacts_us {
     width: 295px;
     height: 292px;
     margin-left: 33px;
     padding: 32px 55px 32px 32px;
   }
 
-.contacts_us_title{
-  width: auto;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.38px;
-}
+  .contacts_us_title {
+    width: auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+  }
 
-.feed_back_form{
-  flex-direction: column;
-  align-items: flex-start;
-}
-.feed_back_form_input{
-  margin-bottom: 32px;
-}
+  .feed_back_form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-.feed_back_form_button{
-  width: 155px;
-}
+  .feed_back_form_input {
+    margin-bottom: 32px;
+  }
 
-.contacts_footer{
-  margin: 32px 21px 32px 56px;
-}
-
-.contact_element_top{
-  width: 176px;
-  margin-bottom: 14px;
-}
-.contact_element_bottom{
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 22px;
-  letter-spacing: -0.408px;
-}
-}
+  .feed_back_form_button {
+    width: 155px;
+  }
 
 
+  .contacts_footer {
+    margin: 32px 21px 32px 56px;
+  }
+
+  .contact_element_top {
+    width: 176px;
+    margin-bottom: 14px;
+  }
+
+  .contact_element_bottom {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+  }
+
+  .technology_page_container {
+    margin: 32px 92px 35px 40px;
+  }
+
+  .description_technology {
+    width: 321px;
+  }
+
+  .technology_title {
+    margin-bottom: 32px;
+  }
+
+  .technology_title h1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 144%;
+    letter-spacing: 0.326451px;
+    color: #101828;
+  }
+
+  .technology_title p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #101828;
+  }
+
+  .technology_container {
+    width: 277px;
+  }
+
+  .technology_container h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+    color: #101828;
+  }
+  .technology_container h4 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #344054;
+
+  }
+  .service_products {
+    margin-left: 82px;
+    margin-top: 124px;
+  }
+}
 
 
 @media (max-width: 767px) {
 
-  .main_page_container{
+  .main_page_container {
     background-size: 100%;
     background-position: top 345px right -67px;
   }
-  .nav_header, .contacts_header{
+
+  .nav_header, .contacts_header {
     display: none;
   }
+
   .banner {
     max-width: 409px;
     min-height: 1267px;
   }
+
   .header_container {
     padding-top: 20px;
   }
@@ -496,7 +567,7 @@ body {
     padding: 35px 17px;
   }
 
-  .burger_icon{
+  .burger_icon {
     width: 40px;
     height: 20px;
     background-image: url("./src/svg/burger_icon_425.svg");
@@ -506,35 +577,45 @@ body {
     margin-left: 91px;
   }
 
-  .intro{
+  .intro {
     margin-top: 28px;
   }
 
-  .description_intro{
+  .description_intro {
     margin-bottom: 536px;
   }
-  .contacts_us{
+
+  .contacts_us {
     margin-left: 24px;
     padding: 32px 55px 32px 33px;
   }
 
-  .right_contact_container, .left_contact_container{
+  .right_contact_container, .left_contact_container {
     flex-direction: column;
   }
 
-  .contacts_footer{
+  .contacts_footer {
     margin: 56px 16px 18px 36px;
   }
 
-  .contact_element_top{
+  .contact_element_top {
     width: 176px;
     margin-bottom: 12px;
   }
 
-  .contact_container{
+  .contact_container {
     margin-bottom: 34px;
   }
 
-
+  .technology_page_container {
+    margin: 32px 92px 52px 17px;
+  }
+  .technology_page {
+   flex-direction: column;
+  }
+  .service_products {
+    margin-left: 0;
+    margin-top: 32px;
+  }
 }
 

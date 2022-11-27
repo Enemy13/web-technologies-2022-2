@@ -1,0 +1,621 @@
+@import "/src/assets/styles/fonts.css";
+@import "./reset.css";
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  height: 100%;
+}
+
+.banner {
+  min-height: 900px;
+  max-width: 1224px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.main_page_container {
+  background-color: #F2F4F7;
+  background-image: url("./src/svg/back-image.svg");
+  background-repeat: no-repeat;
+  background-position: top -640px right -320px;
+}
+
+.header_container {
+  padding-top: 24px;
+}
+
+.page_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 16px 24px;
+}
+
+.logo_header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  letter-spacing: -0.154px;
+  color: #2D66EE;
+}
+
+.nav_wrapper {
+  display: flex;
+}
+
+.nav_item {
+  margin-right: 24px;
+}
+
+.nav_item:last-of-type {
+  margin-right: 0;
+}
+
+.nav_item a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.154px;
+  color: #101828;
+  text-decoration: none;
+}
+
+.telephones_container {
+  display: flex;
+  align-items: center;
+}
+
+.contacts_header {
+  display: flex;
+  align-items: center;
+}
+
+.contacts_img_header {
+  width: 14px;
+  height: 20px;
+}
+
+.number_header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.154px;
+  color: #2D66EE;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+.number_header:first-of-type {
+  margin-left: 13px;
+}
+
+.email_header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.154px;
+  color: #2D66EE;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.email_img_header {
+  margin-left: 34px;
+}
+
+.intro {
+  margin-top: 80px;
+}
+
+.description_intro {
+  width: 600px;
+  margin-bottom: 64px;
+}
+
+.intro_title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 144%;
+  letter-spacing: 0.326451px;
+  color: #101828;
+  margin-bottom: 24px;
+}
+
+.intro_title span {
+  color: #306FF5;
+}
+
+.intro_text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+  color: #101828;
+}
+
+.contacts_us {
+  width: 676px;
+  padding: 24px;
+  background-color: white;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.08), 0 0 24px rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+}
+
+.contacts_us_title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  color: #101828;
+  margin-bottom: 32px;
+  width: 525px;
+}
+
+.feed_back_form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feed_back_form_button {
+  padding: 11px 24px;
+  background: #2D66EE;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+  width: 132px;
+}
+
+.feed_back_form_button:hover{
+  background: #114fe3;
+}
+
+.feed_back_form_input {
+  border-bottom: 0.7px solid #D0D5DD;
+  display: flex;
+  flex-direction: column;
+}
+
+.feed_back_form_input label {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.078px;
+  color: #667085;
+}
+
+.feed_back_form_input input {
+  width: 224px;
+  padding: 8px 0;
+  border: none;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #151828;
+
+}
+
+.feed_back_form_input_icon input {
+  width: 200px;
+}
+
+#phone {
+  background-image: url("./src/svg/kazah-logo.svg");
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 24px;
+}
+
+.footer_container {
+  background: white;
+  max-width: 1224px;
+  width: 100%;
+  margin: 54px auto 0;
+}
+
+.page_footer {
+  background: #101828;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.08), 0 2px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+.logo_footer {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 18px;
+  letter-spacing: -0.154px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+.contacts_footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 24px;
+}
+
+
+.contact_element_top {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.154px;
+  color: #98A2B3;
+  width: 294px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.contact_element_bottom {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #FFFFFF;
+}
+
+.contact_element_top_text {
+  margin-left: 13px;
+}
+
+.right_contact_container, .left_contact_container {
+  display: flex;
+  align-items: center;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+}
+
+.footer_p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.078px;
+  color: #FFFFFF;
+  margin-left: 12px;
+}
+
+.burger_icon {
+  display: none;
+}
+
+.technology_page_container{
+  margin: 80px 82px;
+}
+
+.description_technology {
+  width: 600px;
+}
+
+.technology_page {
+  max-width: 1224px;
+  width: 100%;
+  margin:  auto ;
+
+  display: flex;
+}
+
+.technology_title {
+  margin-bottom: 34px;
+}
+
+.technology_title h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 144%;
+  letter-spacing: 0.326451px;
+  color: #101828;
+  margin-bottom: 32px;
+}
+
+.technology_title p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+  color: #101828;
+}
+
+.technology_container {
+  width: 496px;
+}
+
+.technology_container h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  color: #101828;
+  margin-bottom: 16px;
+}
+
+.technology_container h4 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #344054;
+  margin-bottom: 32px;
+}
+
+.technology_container h4:last-of-type {
+  margin: 0;
+}
+
+.service_products {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 128px;
+}
+
+.service_product_container {
+  display: flex;
+  align-items: center;
+}
+
+.service_product_container a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  color: #1D2939;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  margin: 12px 0;
+}
+
+.service_product_container a:hover {
+  border-bottom: 1px solid #2D66EE;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  color: #101828;
+}
+
+.right_icon {
+  margin-left: 21px;
+  width: 6px;
+  height: 12px;
+}
+
+@media (max-width: 1439px) {
+
+  .main_page_container {
+    background-size: 75%;
+    background-position: top -110px right -180px;
+  }
+
+  .banner {
+    max-width: 768px;
+    min-height: 762px;
+  }
+
+  .header_container {
+    padding-top: 16px;
+  }
+
+  .page_header {
+    padding: 25px 32px;
+  }
+
+  .burger_icon {
+    display: block;
+    width: 59px;
+    height: 40px;
+  }
+
+  .nav_header, .telephones_container {
+    display: none;
+  }
+
+  .intro {
+    margin-top: 32px;
+  }
+
+  .description_intro {
+    width: 393px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+  }
+
+  .intro_title {
+    font-weight: 700;
+    font-size: 28px;
+
+  }
+
+  .contacts_us {
+    width: 295px;
+    height: 292px;
+    margin-left: 33px;
+    padding: 32px 55px 32px 32px;
+  }
+
+  .contacts_us_title {
+    width: auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+  }
+
+  .feed_back_form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .feed_back_form_input {
+    margin-bottom: 32px;
+  }
+
+  .feed_back_form_button {
+    width: 155px;
+  }
+
+
+  .contacts_footer {
+    margin: 32px 21px 32px 56px;
+  }
+
+  .contact_element_top {
+    width: 176px;
+    margin-bottom: 14px;
+  }
+
+  .contact_element_bottom {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+  }
+
+  .technology_page_container {
+    margin: 32px 92px 35px 40px;
+  }
+
+  .description_technology {
+    width: 321px;
+  }
+
+  .technology_title {
+    margin-bottom: 32px;
+  }
+
+  .technology_title h1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 144%;
+    letter-spacing: 0.326451px;
+    color: #101828;
+  }
+
+  .technology_title p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #101828;
+  }
+
+  .technology_container {
+    width: 277px;
+  }
+
+  .technology_container h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+    color: #101828;
+  }
+  .technology_container h4 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #344054;
+
+  }
+  .service_products {
+    margin-left: 82px;
+    margin-top: 124px;
+  }
+}
+
+
+@media (max-width: 767px) {
+
+  .main_page_container {
+    background-size: 100%;
+    background-position: top 345px right -67px;
+  }
+
+  .nav_header, .contacts_header {
+    display: none;
+  }
+
+  .banner {
+    max-width: 409px;
+    min-height: 1267px;
+  }
+
+  .header_container {
+    padding-top: 20px;
+  }
+
+  .page_header {
+    justify-content: start;
+    padding: 35px 17px;
+  }
+
+  .burger_icon {
+    width: 40px;
+    height: 20px;
+    background-image: url("./src/svg/burger_icon_425.svg");
+  }
+
+  .logo_header {
+    margin-left: 91px;
+  }
+
+  .intro {
+    margin-top: 28px;
+  }
+
+  .description_intro {
+    margin-bottom: 536px;
+  }
+
+  .contacts_us {
+    margin-left: 24px;
+    padding: 32px 55px 32px 33px;
+  }
+
+  .right_contact_container, .left_contact_container {
+    flex-direction: column;
+  }
+
+  .contacts_footer {
+    margin: 56px 16px 18px 36px;
+  }
+
+  .contact_element_top {
+    width: 176px;
+    margin-bottom: 12px;
+  }
+
+  .contact_container {
+    margin-bottom: 34px;
+  }
+
+  .technology_page_container {
+    margin: 32px 92px 52px 17px;
+  }
+  .technology_page {
+   flex-direction: column;
+  }
+  .service_products {
+    margin-left: 0;
+    margin-top: 32px;
+  }
+}
+

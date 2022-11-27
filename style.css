@@ -292,6 +292,97 @@ body {
   display: none;
 }
 
+.description_technology{
+  width: 600px;
+}
+
+.technology_page{
+  max-width: 1224px;
+  width: 100%;
+  margin: 80px auto 82px;
+
+  display: flex;
+}
+.technology_title{
+  margin-bottom: 34px;
+}
+
+.technology_title h1{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 144%;
+  letter-spacing: 0.326451px;
+  color: #101828;
+  margin-bottom: 32px;
+}
+
+.technology_title p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+  color: #101828;
+}
+
+.technology_container{
+  width: 496px;
+}
+
+.technology_container h3{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  color: #101828;
+  margin-bottom: 16px;
+}
+.technology_container h4{
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #344054;
+  margin-bottom: 32px;
+}
+.technology_container h4:last-of-type{
+  margin: 0;
+}
+.service_products{
+ display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 128px;
+}
+
+.service_product_container{
+  display: flex;
+  align-items: center;
+}
+.service_product_container a{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  color: #1D2939;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  margin: 12px 0;
+}
+.service_product_container a:hover{
+  border-bottom: 1px solid #2D66EE;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  color: #101828;
+}
+
+.right_icon{
+  margin-left: 21px;
+  width: 6px;
+  height: 12px;
+}
+
 @media (max-width: 1439px) {
 
   .main_page_container{

@@ -1,49 +1,64 @@
 @import "/src/assets/styles/fonts.css";
 @import "./reset.css";
 
-body{
+body {
   font-family: 'Inter', sans-serif;
-  background: #F5F5F5;
 }
-.banner{
-  background-image: url("./src/svg/back-image.svg");
-  background-repeat: no-repeat;
-  background-position: 630px -659px;
+
+.container {
+  height: 100%;
+}
+
+.banner {
   min-height: 900px;
-}
-.container{
   max-width: 1224px;
   width: 100%;
   margin: 0 auto;
 
 }
-.page_header{
+
+.main_page_container {
+  background-color: #F2F4F7;
+  background-image: url("./src/svg/back-image.svg");
+  background-repeat: no-repeat;
+  background-position: top -640px right -320px;
+}
+
+.header_container {
+  padding-top: 24px;
+}
+
+.page_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: white;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
   border-radius: 12px;
-  margin-top: 24px;
   padding: 16px 24px;
 }
-.logo_header{
+
+.logo_header {
   font-weight: 700;
   font-size: 20px;
   line-height: 18px;
   letter-spacing: -0.154px;
   color: #2D66EE;
 }
-.nav_wrapper{
+
+.nav_wrapper {
   display: flex;
 }
-.nav_item{
+
+.nav_item {
   margin-right: 24px;
 }
-.nav_item:last-of-type{
+
+.nav_item:last-of-type {
   margin-right: 0;
 }
-.nav_item a{
+
+.nav_item a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -52,15 +67,23 @@ body{
   color: #101828;
   text-decoration: none;
 }
-.contacts_header{
+
+.telephones_container {
   display: flex;
   align-items: center;
 }
-.contacts_img_header{
+
+.contacts_header {
+  display: flex;
+  align-items: center;
+}
+
+.contacts_img_header {
   width: 14px;
   height: 20px;
 }
-.number_header{
+
+.number_header {
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
@@ -69,29 +92,35 @@ body{
   text-decoration: none;
   margin-left: 16px;
 }
-.number_header:first-of-type{
+
+.number_header:first-of-type {
   margin-left: 13px;
 }
-.email_header{
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 18px;
-   letter-spacing: -0.154px;
-   color: #2D66EE;
-   text-decoration: none;
+
+.email_header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.154px;
+  color: #2D66EE;
+  text-decoration: none;
   margin-left: 10px;
- }
-.email_img_header{
+}
+
+.email_img_header {
   margin-left: 34px;
 }
-.intro{
+
+.intro {
   margin-top: 80px;
 }
-.description_intro{
+
+.description_intro {
   width: 600px;
   margin-bottom: 64px;
 }
-.intro_title{
+
+.intro_title {
   font-weight: 700;
   font-size: 36px;
   line-height: 144%;
@@ -99,24 +128,28 @@ body{
   color: #101828;
   margin-bottom: 24px;
 }
-.intro_title span{
-  color:#306FF5;
+
+.intro_title span {
+  color: #306FF5;
 }
-.intro_text{
+
+.intro_text {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   letter-spacing: -0.24px;
   color: #101828;
 }
-.contacts_us{
+
+.contacts_us {
   width: 676px;
   padding: 24px;
   background-color: white;
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 0px 24px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.08), 0 0 24px rgba(0, 0, 0, 0.16);
   border-radius: 12px;
 }
-.contacts_us_title{
+
+.contacts_us_title {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -125,11 +158,13 @@ body{
   margin-bottom: 32px;
   width: 525px;
 }
-.feed_back_form{
+
+.feed_back_form {
   display: flex;
   justify-content: space-between;
 }
-.feed_back_form_button{
+
+.feed_back_form_button {
   padding: 11px 24px;
   background: #2D66EE;
   border-radius: 8px;
@@ -139,19 +174,22 @@ body{
   cursor: pointer;
   width: 132px;
 }
-.feed_back_form_input{
-  border-bottom:0.7px solid #D0D5DD;
+
+.feed_back_form_input {
+  border-bottom: 0.7px solid #D0D5DD;
   display: flex;
   flex-direction: column;
 }
-.feed_back_form_input label{
+
+.feed_back_form_input label {
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
   letter-spacing: -0.078px;
   color: #667085;
 }
-.feed_back_form_input input{
+
+.feed_back_form_input input {
   width: 224px;
   padding: 8px 0;
   border: none;
@@ -162,23 +200,33 @@ body{
   color: #151828;
 
 }
-.feed_back_form_input_icon input{
+
+.feed_back_form_input_icon input {
   width: 200px;
 }
-#phone{
+
+#phone {
   background-image: url("./src/svg/kazah-logo.svg");
   display: flex;
   background-repeat: no-repeat;
   background-position: left;
   padding-left: 24px;
 }
-.page_footer{
-  background: #101828;
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
-  border-radius: 12px;
-  margin-top: 54px;
+
+.footer_container {
+  background: white;
+  max-width: 1224px;
+  width: 100%;
+  margin: 54px auto 0;
 }
-.logo_footer{
+
+.page_footer {
+  background: #101828;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.08), 0 2px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+.logo_footer {
   font-weight: 700;
   font-size: 36px;
   line-height: 18px;
@@ -188,15 +236,15 @@ body{
   justify-content: center;
   padding-top: 24px;
 }
-.contacts_footer{
+
+.contacts_footer {
   display: flex;
   justify-content: space-between;
   margin: 40px 24px;
 }
-.contact_container{
-  /*display: flex;*/
-}
-.contact_element_top{
+
+
+.contact_element_top {
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
@@ -207,22 +255,31 @@ body{
   display: flex;
   align-items: center;
 }
-.contact_element_bottom{
+
+.contact_element_bottom {
   font-weight: 600;
   font-size: 17px;
   line-height: 22px;
   letter-spacing: -0.408px;
   color: #FFFFFF;
 }
-.contact_element_top_text{
+
+.contact_element_top_text {
   margin-left: 13px;
 }
-.footer_bottom{
+
+.right_contact_container, .left_contact_container{
+  display: flex;
+  align-items: center;
+}
+
+.footer_bottom {
   display: flex;
   justify-content: center;
   padding-bottom: 24px;
 }
-.footer_p{
+
+.footer_p {
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
@@ -230,3 +287,163 @@ body{
   color: #FFFFFF;
   margin-left: 12px;
 }
+
+.burger_icon {
+  display: none;
+}
+
+@media (max-width: 1439px) {
+
+  .main_page_container{
+    background-size: 75%;
+    background-position: top -110px right -180px;
+  }
+  .banner {
+    max-width: 768px;
+    min-height: 762px;
+  }
+
+  .header_container {
+    padding-top: 16px;
+  }
+
+  .page_header {
+    padding: 25px 32px;
+  }
+
+  .burger_icon {
+    display: block;
+    width: 59px;
+    height: 40px;
+  }
+
+  .nav_header, .telephones_container {
+    display: none;
+  }
+
+  .intro{
+    margin-top: 32px;
+  }
+
+  .description_intro{
+    width: 393px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+  }
+
+  .intro_title{
+    font-weight: 700;
+    font-size: 28px;
+
+  }
+
+  .contacts_us{
+    width: 295px;
+    height: 292px;
+    margin-left: 33px;
+    padding: 32px 55px 32px 32px;
+  }
+
+.contacts_us_title{
+  width: auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+}
+
+.feed_back_form{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.feed_back_form_input{
+  margin-bottom: 32px;
+}
+
+.feed_back_form_button{
+  width: 155px;
+}
+
+.contacts_footer{
+  margin: 32px 21px 32px 56px;
+}
+
+.contact_element_top{
+  width: 176px;
+  margin-bottom: 14px;
+}
+.contact_element_bottom{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+}
+}
+
+
+
+
+@media (max-width: 767px) {
+
+  .main_page_container{
+    background-size: 100%;
+    background-position: top 345px right -67px;
+  }
+  .nav_header, .contacts_header{
+    display: none;
+  }
+  .banner {
+    max-width: 409px;
+    min-height: 1267px;
+  }
+  .header_container {
+    padding-top: 20px;
+  }
+
+  .page_header {
+    justify-content: start;
+    padding: 35px 17px;
+  }
+
+  .burger_icon{
+    width: 40px;
+    height: 20px;
+    background-image: url("./src/svg/burger_icon_425.svg");
+  }
+
+  .logo_header {
+    margin-left: 91px;
+  }
+
+  .intro{
+    margin-top: 28px;
+  }
+
+  .description_intro{
+    margin-bottom: 536px;
+  }
+  .contacts_us{
+    margin-left: 24px;
+    padding: 32px 55px 32px 33px;
+  }
+
+  .right_contact_container, .left_contact_container{
+    flex-direction: column;
+  }
+
+  .contacts_footer{
+    margin: 56px 16px 18px 36px;
+  }
+
+  .contact_element_top{
+    width: 176px;
+    margin-bottom: 12px;
+  }
+
+  .contact_container{
+    margin-bottom: 34px;
+  }
+
+
+}
+

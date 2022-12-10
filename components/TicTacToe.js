@@ -102,7 +102,12 @@ export const TicTacToe = {
    * @returns {boolean} - true если есть пустые блоки, false - если нет
    */
   checkHasEmptyBlocks() {
-    return true;
+    for (const matrix of this.matrix) {
+      for (let el of matrix) {
+        if(el===null) return true;
+      }
+    }
+    return false;
   },
 
   /**

@@ -1,0 +1,237 @@
+@import "/src/assets/styles/fonts.css";
+@import "./reset.css";
+
+body{
+  font-family: 'Inter', sans-serif;
+  background: #F5F5F5;
+}
+.banner{
+  background-image: url("./src/svg/back-image.svg");
+  background-repeat: no-repeat;
+  background-position: 630px -659px;
+  min-height: 900px;
+  flex-grow: 1;
+}
+.container{
+  max-width: 1224px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+.page_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  margin-top: 24px;
+  padding: 16px 24px;
+}
+.logo_header{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  letter-spacing: -0.154px;
+  color: #2D66EE;
+}
+.nav_wrapper{
+  display: flex;
+}
+.nav_item{
+  margin-right: 24px;
+}
+.nav_item:last-of-type{
+  margin-right: 0;
+}
+.nav_item a{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.154px;
+  color: #101828;
+  text-decoration: none;
+}
+.contacts_header{
+  display: flex;
+  align-items: center;
+}
+.contacts_img_header{
+  width: 14px;
+  height: 20px;
+}
+.number_header{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.154px;
+  color: #2D66EE;
+  text-decoration: none;
+  margin-left: 16px;
+}
+.number_header:first-of-type{
+  margin-left: 13px;
+}
+.email_header{
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   letter-spacing: -0.154px;
+   color: #2D66EE;
+   text-decoration: none;
+  margin-left: 10px;
+ }
+.email_img_header{
+  margin-left: 34px;
+}
+.intro{
+  margin-top: 80px;
+}
+.description_intro{
+  width: 600px;
+  margin-bottom: 64px;
+}
+.intro_title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 144%;
+  letter-spacing: 0.326451px;
+  color: #101828;
+  margin-bottom: 24px;
+}
+.intro_title span{
+  color:#306FF5;
+}
+.intro_text{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+  color: #101828;
+}
+.contacts_us{
+  width: 676px;
+  padding: 24px;
+  background-color: white;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 0px 24px rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+}
+.contacts_us_title{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  color: #101828;
+  margin-bottom: 32px;
+  width: 525px;
+}
+.feed_back_form{
+  display: flex;
+  justify-content: space-between;
+}
+.feed_back_form_button{
+  padding: 11px 24px;
+  background: #2D66EE;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+  width: 132px;
+}
+.feed_back_form_input{
+  border-bottom:0.7px solid #D0D5DD;
+  display: flex;
+  flex-direction: column;
+}
+.feed_back_form_input label{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.078px;
+  color: #667085;
+}
+.feed_back_form_input input{
+  width: 224px;
+  padding: 8px 0;
+  border: none;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #151828;
+
+}
+.feed_back_form_input_icon input{
+  width: 200px;
+}
+#phone{
+  background-image: url("./src/svg/kazah-logo.svg");
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 24px;
+}
+.page_footer{
+  background: #101828;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  margin-top: 54px;
+}
+.logo_footer{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 18px;
+  letter-spacing: -0.154px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+}
+.contacts_footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 24px;
+}
+.contact_container{
+  /*display: flex;*/
+}
+.contact_element_top{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.154px;
+  color: #98A2B3;
+  width: 294px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+.contact_element_bottom{
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #FFFFFF;
+}
+.contact_element_top_text{
+  margin-left: 13px;
+}
+.footer_bottom{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+}
+.footer_p{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.078px;
+  color: #FFFFFF;
+  margin-left: 12px;
+}
+
